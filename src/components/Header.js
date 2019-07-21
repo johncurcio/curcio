@@ -14,12 +14,14 @@ class Header extends React.Component {
 			<section className="flex flex-wrap">
 				
 				<div className="fl w-60-ns w-100 pa4">
+					<a className="link" href="#">
 					<span className="audrey black f1">
 						CURCIO
 					</span>
 					<span className= "brela blue f5"> 
 						.dev 
 					</span>
+					</a>
 				</div>
 
 				<div className="fl w-40-ns w-100 pv4-l pv4-m tc">
