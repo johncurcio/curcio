@@ -1,12 +1,17 @@
 import React from 'react';
-import { 
-  Grid
-} from 'semantic-ui-react';
 
 class Header extends React.Component {
 	constructor(props){
 		super(props);
-		this.state = {};
+		this.state = {
+			active: "en"
+		};
+		this.changeLanguage = this.changeLanguage.bind(this);
+	}
+
+	changeLanguage(lang){
+		this.props.changeLanguage(lang);
+		this.setState({ active: lang });
 	}
 
 	render(){
@@ -31,7 +36,10 @@ class Header extends React.Component {
 						<a href="https://linkedin.com/in/joaocurcio/" className="link black hover-moon-gray"> linkedin</a> 
 					</div>
 					<div className="fl w-20 pv2-ns"> 
-						PT   EN 
+						<button className={"link black dim abutton mr2 " + (this.state.active === "pt" ? 'activeBtn' : '')}
+							onClick={() => this.changeLanguage("pt")}>PT</button>   
+						<button className={"link black dim abutton " + (this.state.active === "en" ? 'activeBtn' : '')}
+							onClick={() => this.changeLanguage("en")}>EN</button> 
 					</div>
 				</div>
 

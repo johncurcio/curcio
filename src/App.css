@@ -1,17 +1,30 @@
 @font-face {
-  font-family: "Audrey";
-  src: url("/dist/assets/fonts/Audrey/Audrey-Normal.otf") format("opentype");
+  font-family: 'Audrey';
+  src: url('./dist/assets/fonts/Audrey/Audrey-Normal.ttf') format('truetype'),
+      url('./dist/assets/fonts/Audrey/Audrey-Normal.svg#Audrey-Normal') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "ADAM.CG PRO";
-  src: url("/dist/assets/fonts/Adam/adam.otf") format("opentype");
-}
 
 @font-face {
-  font-family: "Brela";
-  src: url("/dist/assets/fonts/Brela/brela.otf") format("opentype");
+  font-family: 'ADAM.CG PRO';
+  src: url('./dist/assets/fonts/Adam/ADAMCGPRO.ttf') format('truetype'),
+      url('./dist/assets/fonts/Adam/ADAMCGPRO.svg#ADAM.CGPRO') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'Brela';
+  src: url('./dist/assets/fonts/Brela/Brela.ttf') format('truetype'),
+      url('./dist/assets/fonts/Brela/Brela.svg#Brela') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 .black {
   color: black;
@@ -43,4 +56,18 @@
   font-family: "Brela", "Open Sans", "Arial";
   font-weight: normal;
   font-style: normal;
+}
+
+.abutton {
+  background:none;
+  color:inherit;
+  border:none; 
+  padding:0!important;
+  font: inherit;
+  /*border is optional*/
+  cursor: pointer;
+}
+
+.activeBtn {
+  font-weight: bold;
 }
