@@ -29,7 +29,7 @@ class Header extends React.Component {
 					</a>
 				</div>
 
-				<div className="fl w-40-ns w-100 pv4-l pv4-m tc">
+				<div className="fl w-40-ns w-100 pv4-ns pr2-m tc">
 					<div className="fl w-40 pv2-ns"> + 55 21 96827 0731 </div>  
 					<div className="fl w-40 pv2-ns"> 
 						<a href="https://github.com/johncurcio/" className="link black hover-moon-gray">github</a> /  
