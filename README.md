@@ -7,6 +7,6 @@ Use it with ``npm start``
 
 # To-do
 
-[ ] add mobile friendly version of website
-[ ] add pages about me and projects
-[ ] add animations
+- [ ] add mobile friendly version of website
+- [ ] add pages about me and projects
+- [ ] add animations
