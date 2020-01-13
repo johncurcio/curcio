@@ -10,3 +10,4 @@ Use it with ``npm start``
 - [ ] add mobile friendly version of website
 - [ ] add pages about me and projects
 - [ ] add animations
+- [ ] remove tachyons
